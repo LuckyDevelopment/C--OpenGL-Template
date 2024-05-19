@@ -20,7 +20,7 @@ ___
 ![image](https://github.com/LuckyDevelopment/C--OpenGL-Template/assets/144569592/20c30868-89a2-46f2-98f7-52c5b006c402)
 
 
-5. In the terminal, install the MinGW-w64 toolchain by running this command: ```pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain```
+5. In the terminal, install the MinGW-w64 toolchain by running this command: ``pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain``
 6. Accept the default number of packages in the **toolchain** group by pressing **Enter**.
 ![image](https://github.com/LuckyDevelopment/C--OpenGL-Template/assets/144569592/205787fd-f181-4955-bcfc-8103caa51c08)
 
