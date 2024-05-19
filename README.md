@@ -71,7 +71,7 @@ ___
 
 ![image](https://github.com/LuckyDevelopment/C--OpenGL-Template/assets/144569592/5584e6e0-a376-47df-9155-7479e68981b8)
 
-** ON THESE PATHS, MAKE SURE TO REPLACE BACK SLASHES (\) WITH FRONT SLASHES (/). ALMOST ALL FOLDERS AND FILES HERE WILL WHERE YOU INSTALLED MINGW, IF YOU USED THE DEFAULT SETTINGS IT SHOULD BE AT **``C:\msys64\``
+ON THESE PATHS, MAKE SURE TO REPLACE BACK SLASHES (\) WITH FRONT SLASHES (/). ALMOST ALL FOLDERS AND FILES HERE WILL WHERE YOU INSTALLED MINGW, IF YOU USED THE DEFAULT SETTINGS IT SHOULD BE AT ``C:\msys64\``
 12. There are lot of things to change here, step one is to go to line 7, this is the path to your **include folder** for MinGW. Paste in the directory to your include folder here. To get to it, open up file explorer and go to the directory where you installed MSYS64. It usually can be found at ``C:\msys64`` if you used the default install path. Navigate through your **msys64** folder and find the one that says **mingw64**, open up this folder and find another folder called **include**. Open it up, and at the top of the file explorer, copy the directory to it, and replace it with the directory on line 7. My include path was ``C:\msys64\mingw64\include``. Make you replace the backslashes (\) with frontslashes (/).
 13. You can repeat step 12 for line 9, find the **include** folder inside your **ucrt64** folder inside the **msys64** directory. Mine was at ``C:\msys64\ucrt64\include``.
 14. Go through the rest of the lines that have comments that say replace the path with your path, and you can find most of the files and folders inside your **msys64** folder. **Most of these paths might already be correct! Just make sure you find the files and folders there and see them!**
