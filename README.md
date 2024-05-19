@@ -32,12 +32,14 @@ ___
      4. Select **New** and add the MinGW-w64 destination folder that you wrote down during the installation process to the list. If you used the default settings above, then this path may be: ``C:\msys64\ucrt64\bin``
      5. Select **OK** to save the updated **PATH**. You will need to reopen any console windows for the new **PATH** location to be available.
 9. Check that your MinGW-w64 tools are correctly installed and available by opening a **new** Command Prompt and type:
-    ``
+    ```
   gcc --version
+
   g++ --version
+  
   gdb --version
-    ``
-10. You should see an output that states the versions of GCC, g++, and GDB you have installed. If one or more is broken, please retry the steps above, espescially the path variable.
+    ```
+11. You should see an output that states the versions of GCC, g++, and GDB you have installed. If one or more is broken, please retry the steps above, espescially the path variable.
 ___ 
 
 ## Downloading the program.
