@@ -100,7 +100,7 @@ ___
 ![image](https://github.com/LuckyDevelopment/C--OpenGL-Template/assets/144569592/42dcea9c-52c6-4f57-ae16-b23ad8f345fd)
 
 4. If there are any include errors, make sure to check all the **.json** files to make sure your paths are correct. If you press **F5** and nothing happens, search it up.
-5. Now your program is ready, just code in **main.cpp* and do everything you want.
+5. Now your program is ready, just code in **main.cpp** and do everything you want.
 
 **YOU ONLY HAVE TO DO THIS SETUP ONCE. ONCE THE PROGRAM IS WORKING, MAKE A COPY OF IT SO THAT YOU CAN JUST DUPLICATE IT EVERY TIME YOU WANT TO MAKE A NEW PROGRAM.**
 ___
