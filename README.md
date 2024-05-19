@@ -29,14 +29,14 @@ ___
      1. In the Windows search bar, type **Settings** to open your Windows Settings.
      2. Search for **Edit environment variables for your account.**
      3. In your **User variables**, select the **Path** variable and select **Edit**.
-     4. Select **New** and add the MinGW-w64 destination folder that you wrote down during the installation process to the list. If you used the default settings above, then this path may be: ```C:\msys64\ucrt64\bin```
+     4. Select **New** and add the MinGW-w64 destination folder that you wrote down during the installation process to the list. If you used the default settings above, then this path may be: ``C:\msys64\ucrt64\bin``
      5. Select **OK** to save the updated **PATH**. You will need to reopen any console windows for the new **PATH** location to be available.
 9. Check that your MinGW-w64 tools are correctly installed and available by opening a **new** Command Prompt and type:
-    ```
+    ``
   gcc --version
   g++ --version
   gdb --version
-    ```
+    ``
 10. You should see an output that states the versions of GCC, g++, and GDB you have installed. If one or more is broken, please retry the steps above, espescially the path variable.
 ___ 
 
@@ -69,9 +69,9 @@ ___
 
 ![image](https://github.com/LuckyDevelopment/C--OpenGL-Template/assets/144569592/5584e6e0-a376-47df-9155-7479e68981b8)
 
-** ON THESE PATHS, MAKE SURE TO REPLACE BACK SLASHES (\) WITH FRONT SLASHES (/). ALMOST ALL FOLDERS AND FILES HERE WILL WHERE YOU INSTALLED MINGW, IF YOU USED THE DEFAULT SETTINGS IT SHOULD BE AT ```C:\msys64\```!**
-12. There are lot of things to change here, step one is to go to line 7, this is the path to your **include folder** for MinGW. Paste in the directory to your include folder here. To get to it, open up file explorer and go to the directory where you installed MSYS64. It usually can be found at ```C:\msys64``` if you used the default install path. Navigate through your **msys64** folder and find the one that says **mingw64**, open up this folder and find another folder called **include**. Open it up, and at the top of the file explorer, copy the directory to it, and replace it with the directory on line 7. My include path was ```C:\msys64\mingw64\include```. Make you replace the backslashes (\) with frontslashes (/).
-13. You can repeat step 12 for line 9, find the **include** folder inside your **ucrt64** folder inside the **msys64** directory. Mine was at ```C:\msys64\ucrt64\include```.
+** ON THESE PATHS, MAKE SURE TO REPLACE BACK SLASHES (\) WITH FRONT SLASHES (/). ALMOST ALL FOLDERS AND FILES HERE WILL WHERE YOU INSTALLED MINGW, IF YOU USED THE DEFAULT SETTINGS IT SHOULD BE AT ``C:\msys64\``!**
+12. There are lot of things to change here, step one is to go to line 7, this is the path to your **include folder** for MinGW. Paste in the directory to your include folder here. To get to it, open up file explorer and go to the directory where you installed MSYS64. It usually can be found at ``C:\msys64`` if you used the default install path. Navigate through your **msys64** folder and find the one that says **mingw64**, open up this folder and find another folder called **include**. Open it up, and at the top of the file explorer, copy the directory to it, and replace it with the directory on line 7. My include path was ``C:\msys64\mingw64\include``. Make you replace the backslashes (\) with frontslashes (/).
+13. You can repeat step 12 for line 9, find the **include** folder inside your **ucrt64** folder inside the **msys64** directory. Mine was at ``C:\msys64\ucrt64\include``.
 14. Go through the rest of the lines that have comments that say replace the path with your path, and you can find most of the files and folders inside your **msys64** folder. **Most of these paths might already be correct! Just make sure you find the files and folders there and see them!**
 15. Inside the **.vscode** folder open up **launch.json**. There is another comment on line 14, just replace the path there with the path to your gdb debugger. It will be inside the **msys64** folder.
 ___ 
@@ -81,8 +81,8 @@ ___
 
 ![image](https://github.com/LuckyDevelopment/C--OpenGL-Template/assets/144569592/5f49383f-59ca-4253-8b62-912d25915235)
 
-2. Paste in this code to install glut, ```pacman -S mingw-w64-x86_64-freeglut```.
-3. It will install freeglut to your **msys64** folder, remember the freeglut path for later. Mine was at ```C:\msys64\mingw64\include``` this location.
+2. Paste in this code to install glut, ``pacman -S mingw-w64-x86_64-freeglut``.
+3. It will install freeglut to your **msys64** folder, remember the freeglut path for later. Mine was at ``C:\msys64\mingw64\include`` this location.
 4. Back in VS Code, open up the **.vscode** folder and then open up **tasks.json**. At all of the comments, replace the paths to where they say to. Remember, these will almost all be inside your **msys64** folder.
 ___ 
 
