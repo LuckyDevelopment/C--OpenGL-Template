@@ -1,5 +1,5 @@
 # What does this have?
-This OpenGL Template has Glad, Glfw, FreeGlut, and OpenGL in C++, please read instructions below for installation.
+This OpenGL Template has Glad, Glfw, FreeGlut, and OpenGL in C++, please read instructions below for installation. **This is a one time thing; you only have to go through the somewhat painful process of setting it up once, then you can just use the template again and again by download it here.**
 
 # Instructions
 This can be complicated so make sure to follow everything carefully.
